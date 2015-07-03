@@ -9,4 +9,4 @@ yt.url = raw_input('Enter url: ')
 print('Video Name: %s' % yt.filename)
 yt.filename = 'video'
 video = yt.get('mp4', '720p')
-video.download('vidtemp')
+video.download('video')
