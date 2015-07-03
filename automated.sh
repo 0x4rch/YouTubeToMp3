@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Coded by Nathan Parker"
 python pytubetest.py
-ffmpeg -i vidtemp/video.mp4 songs/song.mp3
+ffmpeg -i video/video.mp4 songs/song.mp3
 
 rm /Users/nateparker/Desktop/Proximity/video/video.mp4
 echo "#################################"
